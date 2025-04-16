@@ -1,4 +1,5 @@
 # dev_helpers.sh
+![](.docs/devhelper_banner.png)
 
 This repository contains a collection of shell functions and aliases designed to help you quickly and consistently prepare your Linux system for **performance profiling**, **debugging**, and **low-level system configuration**. It gives you control over various CPU and memory settings, such as disabling **SMT** (hyper-threading), enabling/disabling **frequency scaling**, managing **RDPMC access**, and much more.
 
@@ -91,6 +92,8 @@ Once the script is sourced, you’ll have access to a variety of functions and a
    vtune_mode
    ```
 
+   ![](.docs/vtune.png)
+
 2. **Disable SMT and switch to single-core mode**:
 
    ```bash
@@ -102,6 +105,7 @@ Once the script is sourced, you’ll have access to a variety of functions and a
    ```bash
    debug_off
    ```
+   ![](.docs/debug_off.png)
 
 
 
