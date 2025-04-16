@@ -403,6 +403,7 @@ alias vtune_mode='enable_tracing_privileges && disable_frequency_scaling && disa
 # Only show banner if QUIET_LOAD is not set
 if [ -z "$QUIET_LOAD" ]; then
   echo "🛠️  System testing functions and aliases loaded."
+  echo "[https://github.com/Saket-Upadhyay/systems-dev-helpers.git]"
   echo ""
   echo "📦 Functions:"
   echo "   • enable_tracing_privileges     – Enable perf, ptrace, kptr access"
