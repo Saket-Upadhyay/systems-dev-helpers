@@ -41,7 +41,12 @@ Follow these steps to get started:
    source /path/to/dev_helpers.sh
    ```
 
-3. **Reload the shell configuration**:
+   use `QUIET_LOAD` to disable init banner:
+   ```bash
+   QUIET_LOAD=1 source /path/to/dev_helpers.sh
+   ```
+
+4. **Reload the shell configuration**:
    - For **Bash**:
      ```bash
      source ~/.bashrc
